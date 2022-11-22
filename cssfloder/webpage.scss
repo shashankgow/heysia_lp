@@ -1,0 +1,63 @@
+$color-for-the-header:#1b1b7a;
+// .bg{
+//     background-color: $color-for-the-header !important;
+// }
+// .text{
+//     // position: absolute;
+//     font-weight: bolder;
+//     font-size: xx-large;
+//     margin-top: -450px;
+//     margin-left: 700px;
+//     color: whitesmoke;
+// }
+$section4-background-color:#1d1deb;
+$section7-background-color:$color-for-the-header;
+$section8-footerbackground-color:#333030;
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+.margin-left{
+    margin-left: 155px;
+}
+// .section1{
+//     margin-left: 595px;
+//     margin-top: 125px;
+// }
+.section4{
+    background-color: $section4-background-color;
+    height: 500px;
+    width: 100%;
+    
+}
+#btn4{
+    background-color: #1d1deb;
+    color: white;
+}
+#btn4:hover{
+    background-color: #1b1b7a;
+    color: white;
+    cursor: pointer;
+}
+#btn3 :hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.section7{
+    background-color: $color-for-the-header;
+    width: 100%;
+    height: 400px;
+}
+.section8{
+    background-color: $section8-footerbackground-color;
+    color: white;   
+}
+#btn5:hover{
+    background-color: transparent;
+    cursor: pointer;
+    
+}
